@@ -35,3 +35,7 @@ build/
 ### Windows Metadata ###
 *:Zone.Identifier
 
+### Technical Documentation ###
+doc-tec/
+
+
