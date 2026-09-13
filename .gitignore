@@ -35,7 +35,6 @@ build/
 ### Windows Metadata ###
 *:Zone.Identifier
 
-### Technical Documentation ###
+### Technical Documentation & Local Payloads ###
 doc-tec/
-
-
+exemplos-requisicoes/
