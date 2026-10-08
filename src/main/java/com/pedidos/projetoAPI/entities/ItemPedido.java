@@ -19,6 +19,7 @@ import java.util.Objects;
 @Entity
 @Table(name = "tb_item_pedido")
 public class ItemPedido implements Serializable {
+
     @Serial
     private static final long serialVersionUID = 1L;
 
@@ -37,6 +38,7 @@ public class ItemPedido implements Serializable {
         id.setProduto(produto);
         this.quantidade = quantidade;
         this.preco = preco;
+
     }
 
     // Evita referência circular ao serializar o Pedido em JSON
